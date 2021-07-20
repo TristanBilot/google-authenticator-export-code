@@ -1,5 +1,5 @@
 # Extract Google-Authenticator code from the Chrome extension
-You may need to use a Google-Authenticator OTP for applications, you can achieve this by exporting the QR-code from the extension, reading the secrets info hidden into and then using the same algorithm used to produce the code.
+You may need to use a Google-Authenticator OTP for applications, you can achieve this by exporting the QR-code from the extension, reading the secrets info hidden into it and finally using the same algorithm used to produce the code in order to make a "copy".
 
 * In the Google-Authenticator Chrome extension, click on the QR-code icon in order to display it. Then, right click on the image and click "inspect" to open the element examinator.
 * Copy the content of the image in an editor, then select all the content between "base64," to "==". Be careful, "==" needs to be present in the selection.
